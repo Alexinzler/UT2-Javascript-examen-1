@@ -10,3 +10,13 @@
  */
 
 console.log('ejercicio 3') //no quitar este console.log, empezar debajo el ejercicio
+
+function opera(suma, resta, operacion) {
+    if (suma + resta) {
+        var operacion = suma + resta
+        console.log(operacion);
+
+    }
+
+}
+opera(5, 5)

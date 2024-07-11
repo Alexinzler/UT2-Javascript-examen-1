@@ -12,3 +12,19 @@
  */
 
 console.log('ejercicio 1') //no quitar este console.log, empezar debajo el ejercicio
+let tecla = window.prompt("Introduce uno de los siguientes caracteres")
+if (tecla === "+") {
+    console.log("sumar");
+
+} else if (tecla === "-") {
+    console.log("restar");
+
+} else if (tecla === "x") {
+    console.log("multiplicar");
+
+} else if (tecla === "/")
+    console.log("dividir");
+else {
+    console.log("no conozco esta operacion");
+}
+
